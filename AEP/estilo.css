@@ -1,0 +1,72 @@
+body {
+    display: grid;
+    background-color:#7C5A41;
+    overflow: scroll;
+}
+
+.aba{
+    overflow: hidden;
+    position: absolute;
+    width: 1330px;
+    height: 80px;
+
+    background: #AD9567;
+    border-radius: 50px;
+    
+}
+
+.logo{
+    position: absolute;
+    overflow: hidden;
+    padding: 7px;
+    padding-inline: 15px;
+    text-decoration: none;  
+    color:black;  
+}
+
+#menu ul {
+    
+    display: inline-block;
+
+    color:black;
+    
+    text-decoration: none;
+    padding:23px;
+    padding-inline: 410px ;
+    margin:0px;
+    list-style:none;
+    font-size: 30px;
+    
+}
+
+#menu ul li { 
+
+    overflow: hidden;
+    display: inline; 
+    background-color: #613E2B;
+    opacity: 0.5;
+    border-radius: 30px;
+    border-bottom: 3px solid black;
+    padding-inline: 40px;
+    align-self: center;
+    
+    
+}
+.rolagem{
+    position: absolute;
+width: 470px;
+height: 1029px;
+left: 412px;
+top: 100px;
+align-self:center;
+background: #AD9567;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+order: 0;
+flex: none;
+flex-grow: 0;
+margin: 0px 10px;
+
+}
+
